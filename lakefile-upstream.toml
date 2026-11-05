@@ -1,0 +1,84 @@
+name = "CatalanIrrationalityMeasure"
+version = "0.1.0"
+defaultTargets = ["CatalanMeasure", "Challenge", "Solution", "ChallengeHybrid", "SolutionHybrid"]
+
+[leanOptions]
+autoImplicit = false
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.35.0-rc2"
+
+# Vendored from OpenAI's formalization of the irrationality of Catalan's constant
+# (https://github.com/openai/math, commit fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb),
+# converted to the module system.  See NOTICE.
+[[lean_lib]]
+name = "VendoredOAI"
+globs = ["OAI.+"]
+
+# Vendored from PrimeNumberTheoremAnd as patched by OpenAI's repository.  See NOTICE.
+[[lean_lib]]
+name = "VendoredPNT"
+globs = ["PrimeNumberTheoremAnd.+"]
+
+# The new development: the irrationality measure.
+[[lean_lib]]
+name = "CatalanMeasure"
+roots = ["CatalanMeasure"]
+globs = ["CatalanMeasure.+"]
+
+[[lean_lib]]
+name = "Challenge"
+roots = ["Challenge"]
+
+[[lean_lib]]
+name = "Solution"
+roots = ["Solution"]
+
+# Historical theorems, superseded by the current bounds and not needed by
+# CatalanMeasure/Challenge/Solution.  Not a default target; build with
+# `lake build Archive`.  Modules are named CatalanArchive.CatalanMeasure.* (files live in
+# archive/CatalanArchive/CatalanMeasure/*; Lake cannot share the CatalanMeasure namespace
+# between two source directories, and Mathlib already owns the top-level `Archive` module prefix).  The main tree never imports the archive.
+[[lean_lib]]
+name = "Archive"
+srcDir = "archive"
+roots = ["CatalanArchive"]
+globs = ["CatalanArchive.+"]
+
+# Shared legacy-lambda library modules still used by the hybrid frames (CatalanFrames.*).
+# The square-frame lambda/lambda' and L(2, chi_{-3}) results (CatalanLambda.Final, Mirror.*, Measure.*,
+# CatalanFrames.Lambda/LambdaMirror square files, Challenge/SolutionLambda and Challenge/SolutionChi3)
+# live under archive/ (`lake build Archive`).
+[[lean_lib]]
+name = "CatalanLambda"
+roots = ["CatalanLambda"]
+globs = ["CatalanLambda.+"]
+
+# Hybrid headlines: mu(G +- 5 pi^2/48) <= 31.2876, mu(L(2, chi_{-3})) <= 13.7046, mu(L(2, chi_{-3}) +- pi^2/9) <= 9.4998, mu(psi'(a/5) - pi^2/6) <= 23.8272, mu(psi'(a/7) - pi^2/6) <= 2207.8697, mu(pi^2) <= 6.5253.
+[[lean_lib]]
+name = "ChallengeHybrid"
+roots = ["ChallengeHybrid"]
+
+[[lean_lib]]
+name = "SolutionHybrid"
+roots = ["SolutionHybrid"]
+
+# Modular architecture (design FU).  None of these is a default target.
+# CatalanCore: frame-generic mathematics; CatalanFrames: per-constant instances;
+# CatalanParity: parity-check templates (the old-vs-new square-frame parity files are archived).
+[[lean_lib]]
+name = "CatalanCore"
+roots = ["CatalanCore"]
+globs = ["CatalanCore.+"]
+
+[[lean_lib]]
+name = "CatalanFrames"
+roots = ["CatalanFrames"]
+globs = ["CatalanFrames.+"]
+
+[[lean_lib]]
+name = "CatalanParity"
+roots = ["CatalanParity"]
+globs = ["CatalanParity.+"]

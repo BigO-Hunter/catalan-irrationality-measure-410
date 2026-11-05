@@ -42,3 +42,34 @@ OAI/NumberTheory/Catalan/Determinants/RealDeterminantCore.lean. Two generic deno
 lemmas from OpenAI's Case2Height namespace were also copied, with unchanged proof bodies,
 into CatalanMeasure/Cert/DenominatorBounds.lean. These changes isolate reusable lemmas from
 the old second-case certificate, which the current main proof supersedes.
+
+4. Submission layout conversion for bigospeedrun/verifier (2026-11-04)
+   The proof was converted to the verifier's Submission layout following
+   docs/convert-layout.md of bigospeedrun/verifier: the transitive import
+   closure of CatalanMeasure.GenD.Signed.Data.Assembly.CellsAll (2453 files
+   from CatalanMeasure/, CatalanCore/, OAI/, PrimeNumberTheoremAnd/) was moved
+   under Submission/ with `Submission.`-prefixed imports; nothing else was
+   changed in the moved sources. Submission/CatalanStatement.lean is a
+   byte-for-byte copy of challenges/catalan/Statement.lean from
+   bigospeedrun/verifier (Apache-2.0). Submission.lean at the root is a new
+   bridge proving Race.bound : BigOSpeedrun.Catalan.Bound (410/1) from
+   catalan_irrationalityMeasure_410 (transfer lemma inlined from
+   challenges/catalan/Validation.lean of bigospeedrun/verifier). The build
+   profile files lean-toolchain, lakefile.toml and lake-manifest.json are set
+   to the verifier's Catalan profile (Lean v4.34.1, Mathlib
+   d13f23b723b8a846827a245b89c10fc7d3f11612); the upstream v4.35.0-rc2 copies
+   are kept as lean-toolchain-upstream and lakefile-upstream.toml.
+   Three proof-level adjustments were needed for the profile (Lean v4.34.1,
+   Mathlib d13f23b7), none changing any statement or mathematical content:
+   in Submission/CatalanMeasure/GenD/Cert/Assembly.lean the last conjunct of
+   `blockOK_ofS` now closes via `decide_eq_true_eq.mpr (of_decide_eq_true hPb)`
+   rather than `of_decide_eq_true hPb` alone, because the `PolyDataS.toD`->`toD`
+   rewrite reaches the decided proposition but not the `Decidable` instance term
+   carried by `decide`; in Submission/CatalanMeasure/GenD/Signed/SheetNear.lean
+   `set_option maxHeartbeats 1600000 in` was added before `near_Sterm_le`,
+   whose elaboration exceeds the default 200000 heartbeats under this profile
+   (the same option is already used in 191 files of this development); and the
+   Submission.lean bridge opens `BigOSpeedrun.Catalan` and takes its cast step
+   from the smoke fixture's documented bridge in docs/convert-layout.md.
+   Conversion by D. I. Arkhipov; the proof and all attributions above are
+   Sean Litsey's, OpenAI's, and the other cited authors', unchanged.

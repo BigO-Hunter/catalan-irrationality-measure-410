@@ -1,0 +1,22 @@
+module
+public import Submission.CatalanMeasure.GenD.Uniform.W.Slots.Core
+public import Submission.CatalanMeasure.GenD.Uniform.W.Slots.Count
+public import Submission.CatalanMeasure.GenD.Uniform.W.Slots.TPairs
+public import Submission.CatalanMeasure.GenD.Uniform.W.Slots.HRows
+public import Submission.CatalanMeasure.GenD.Uniform.W.Slots.HSystem
+public import Submission.CatalanMeasure.GenD.Uniform.W.Slots.HInst
+public import Submission.CatalanMeasure.GenD.Uniform.W.Slots.JFlat
+public import Submission.CatalanMeasure.GenD.Uniform.W.Slots.Flat
+public import Submission.CatalanMeasure.GenD.Uniform.W.Slots.FlatCount
+public import Submission.CatalanMeasure.GenD.Uniform.W.Slots.HPrime
+public import Submission.CatalanMeasure.GenD.Uniform.W.Slots.HFam
+public import Submission.CatalanMeasure.GenD.Uniform.W.Slots.HLB
+public import Submission.CatalanMeasure.GenD.Uniform.W.Slots.PBasis
+public import Submission.CatalanMeasure.GenD.Uniform.W.Slots.Period
+public import Submission.CatalanMeasure.GenD.Uniform.W.Slots.PCount
+public import Submission.CatalanMeasure.GenD.Uniform.W.Slots.PFam
+public import Submission.CatalanMeasure.GenD.Uniform.W.Slots.PLB
+public import Submission.CatalanMeasure.GenD.Uniform.W.Slots.Combine
+public import Submission.CatalanMeasure.GenD.Uniform.W.Slots.Sum
+public import Submission.CatalanMeasure.GenD.Uniform.W.Slots.HPS
+public import Submission.CatalanMeasure.GenD.Uniform.W.Slots.HPSLB
