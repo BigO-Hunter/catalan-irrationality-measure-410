@@ -29,7 +29,7 @@ independent kernel checks, each of which is small:
   proofs recomputed it twice).
 -/
 
-namespace CatalanMeasure.GenD.Signed.Data.Consts.EvalRef
+namespace CatalanMeasure.GenD.Signed.Data.Consts.EvalRef.E1
 open CatalanMeasure.Signed CatalanMeasure.Signed.FieldForm CatalanMeasure.GenD.Signed.Data.Trial
 open CatalanMeasure.GenD.Signed.LogEval
 open CatalanMeasure.Cert (qabs)
@@ -229,5 +229,5 @@ theorem refEnergy_T1_ge {μ : SRef} (hμ : IsRefQ μ (ofTrial T1.trial)) (hR : (
 
 end
 
-end CatalanMeasure.GenD.Signed.Data.Consts.EvalRef
+end CatalanMeasure.GenD.Signed.Data.Consts.EvalRef.E1
 

@@ -25,7 +25,7 @@ independent kernel checks, each small:
 * `enc_eq` — the shared `LF.enc 7` value, reused by every bound in this module.
 -/
 
-namespace CatalanMeasure.GenD.Signed.Data.Consts.EvalRef
+namespace CatalanMeasure.GenD.Signed.Data.Consts.EvalRef.E2
 open CatalanMeasure.Signed CatalanMeasure.Signed.FieldForm CatalanMeasure.GenD.Signed.Data.Trial
 open CatalanMeasure.GenD.Signed.LogEval
 open CatalanMeasure.Cert (qabs)
@@ -222,5 +222,5 @@ theorem refEnergy_T2_ge {μ : SRef} (hμ : IsRefQ μ (ofTrial T2.trial)) (hR : (
 
 end
 
-end CatalanMeasure.GenD.Signed.Data.Consts.EvalRef
+end CatalanMeasure.GenD.Signed.Data.Consts.EvalRef.E2
 

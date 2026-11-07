@@ -33,6 +33,9 @@ open Set Filter
 open CatalanMeasure.Signed CatalanMeasure.Signed.Consts
 open CatalanMeasure.GenD.Signed.Data.Trial
 open CatalanMeasure.GenD.Signed.Data.Consts.EvalRef
+open CatalanMeasure.GenD.Signed.Data.Consts.EvalRef.E0
+open CatalanMeasure.GenD.Signed.Data.Consts.EvalRef.E1
+open CatalanMeasure.GenD.Signed.Data.Consts.EvalRef.E2
 open CatalanMeasure.GenD.Signed.Data.Consts.EvalNormT
 open CatalanMeasure.Cert.Iv
 
