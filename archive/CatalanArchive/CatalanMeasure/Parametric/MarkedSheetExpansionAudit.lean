@@ -1,6 +1,0 @@
-module
-public import CatalanMeasure.Parametric.MarkedSheetExpansion
-#print axioms CatalanMeasure.Parametric.det_binary_rows
-#print axioms CatalanMeasure.Parametric.abs_det_binary_rows_le
-#print axioms CatalanMeasure.Parametric.marked_laurent_decomposition
-#print axioms CatalanMeasure.Parametric.marked_laurent_det_bound

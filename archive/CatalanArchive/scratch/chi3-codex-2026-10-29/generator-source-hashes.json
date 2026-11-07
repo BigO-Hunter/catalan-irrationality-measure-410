@@ -1,6 +1,0 @@
-{
- "scripts\\claude\\bank\\cover\\cover.py": "60db4998587a4ae74a39b6ebf481e597f9f96d1cf0dfb18abdd347f3a79e8479",
- "scripts\\claude\\bank\\cover\\runlean.py": "f77aca87c3c05ba37636cc3ee4178f301f47e6ca666c5c42e79068bb6b4b45fc",
- "scripts\\claude\\bank\\cover\\GenCover.lean.tmpl": "9463adeb05645094b988e700379af0e8bbf53fdb491bbca3d391752203dec69a",
- "scripts\\claude\\bank\\cover\\GenE.lean.tmpl": "5ee03b8681fa2e941652f5c25372adb08718b6a656939589eacafa3d50a519c1"
-}

@@ -1,2 +1,0 @@
-Preflight CatalanCore.Uniform.Content.RankProducer.ActiveFibres rc= 3 stale= ['CatalanCore.Uniform.Content.RankProducer.ActiveFibres']
-Submitted after preflight CatalanCore.Uniform.Content.RankProducer.ActiveFibres rc= 0

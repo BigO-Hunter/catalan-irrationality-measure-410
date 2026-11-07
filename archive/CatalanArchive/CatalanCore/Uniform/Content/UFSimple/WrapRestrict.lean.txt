@@ -1,9 +1,0 @@
--- Archived 2026-10-31 (Archive after R3). Unreached from the final roots: the four first-strip Level3 bank
--- roots (Level3Bound) and WrapPrefixCheck.catValid_prefix_full / catValid_prefix / catValid_prefix_R1
--- (declaration-level reachability from the built oleans, commit f633b92 + this edit). Source: WrapRestrict.
--- Kept for reference only; not part of the build. Never deleted.
-
--- ---- lines 129-131; context: namespace CatalanCore.Uniform.Content.UFSimple.WrapRestrict
-/-- Colour-block extraction commutes with arbitrary restriction. -/
-theorem Dmat_submatrix (c : ι → ℕ) (Q : Matrix ι ι (LocRing p)[X]) (f : τ → ι) :
-    Dmat (c ∘ f) (Q.submatrix f f)=(Dmat c Q).submatrix f f := rfl

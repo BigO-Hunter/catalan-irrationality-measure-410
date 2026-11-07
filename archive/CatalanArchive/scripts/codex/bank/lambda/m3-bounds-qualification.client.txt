@@ -1,1 +1,0 @@
-Preflight CatalanCore.Uniform.Bank.Lambda.M3Bounds.C1P00 rc= 3 stale= ['CatalanCore.Uniform.Content.Wire.M3Windows']

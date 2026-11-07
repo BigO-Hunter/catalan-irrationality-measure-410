@@ -1,4 +1,0 @@
-module
-public import CatalanMeasure.Parametric.GroupedGramBound
-#print axioms CatalanMeasure.Parametric.norm_gram_det_eq_norm_basis_det_sq
-#print axioms CatalanMeasure.Parametric.grouped_operator_det_gram_bound

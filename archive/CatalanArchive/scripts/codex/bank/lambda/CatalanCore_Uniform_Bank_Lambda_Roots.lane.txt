@@ -1,8 +1,0 @@
-{"target": "CatalanCore.Uniform.Bank.Lambda.Roots", "mode": "build", "rc": 0, "wrapper_wall_seconds": 20.647679400000015, "sampled_wrapper_tree_peak_bytes": 2460860416, "lean_process_peak_working_sets_bytes": {"19016": 1840721920}, "log": "C:\\Users\\seanl\\Documents\\Codex\\2026-10-11\\plea\\outputs\\Compatibility programme\\lean-plan-2026-10-27\\evidence\\claude\\logs\\CatalanCore_Uniform_Bank_Lambda_Roots-build.log", "observer": "creation-bound-v2", "note": "Tree includes wrapper/guard/Lake; individual Lean values are OS lifetime peaks. No CPU/kernel estimate inferred from wrapper time."}
-ℹ [3092/3092] Built CatalanCore.Uniform.Bank.Lambda.Roots (14s)
-info: CatalanCore/Uniform/Bank/Lambda/Roots.lean:29:0: 'CatalanCore.Uniform.Bank.Lambda.root4_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
-info: CatalanCore/Uniform/Bank/Lambda/Roots.lean:30:0: 'CatalanCore.Uniform.Bank.Lambda.q4_band' depends on axioms: [propext, Classical.choice, Quot.sound]
-Build completed successfully (3092 jobs).
-
-{"target": "CatalanCore.Uniform.Bank.Lambda.Roots", "rc": 0, "budget": 2.5}
-

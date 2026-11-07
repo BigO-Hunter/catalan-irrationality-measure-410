@@ -1,6 +1,0 @@
-halves n 150 mu exact 6.5252058199628818670562438471633816187743356413946952763875065640247580850730981 slack 0.0000941800371181329437561528366183812256643586053047236124934359752419149269019 target 65253/10000
-windows [(3, 4), (4, 4), (4, 5), (5, 5), (5, 6), (6, 6), (6, 7), (7, 7), (7, 8)] pieces {1: 682}
-Lam_fin 2.9923823206557203 mu_fin 6.525206647031686 excess 8.270688040368126e-07
-wrote C:\Users\seanl\Documents\Codex\2026-10-11\plea\work\catalan-uniform\CatalanCore\Uniform\Bank\HalvesContent\AutoData.lean
-
-{"target": "job.BankSwitchHalvesEmit8", "rc": 0, "budget": 1.0}

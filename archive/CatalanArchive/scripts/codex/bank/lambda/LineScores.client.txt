@@ -1,2 +1,0 @@
-Preflight CatalanCore.Uniform.Content.RankProducer.LineScores rc= 3 stale= ['CatalanCore.Uniform.Content.RankProducer.LineScores']
-Submitted after preflight CatalanCore.Uniform.Content.RankProducer.LineScores rc= 0

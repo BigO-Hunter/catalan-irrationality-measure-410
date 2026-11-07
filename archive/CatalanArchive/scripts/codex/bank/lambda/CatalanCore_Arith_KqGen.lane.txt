@@ -1,5 +1,0 @@
-{"target": "CatalanCore.Arith.KqGen", "mode": "build", "rc": 0, "wrapper_wall_seconds": 25.98726859999988, "sampled_wrapper_tree_peak_bytes": 1180000256, "lean_process_peak_working_sets_bytes": {"28980": 592830464}, "log": "C:\\Users\\seanl\\Documents\\Codex\\2026-10-11\\plea\\outputs\\Compatibility programme\\lean-plan-2026-10-27\\evidence\\claude\\logs\\CatalanCore_Arith_KqGen-build.log", "observer": "creation-bound-v2", "note": "Tree includes wrapper/guard/Lake; individual Lean values are OS lifetime peaks. No CPU/kernel estimate inferred from wrapper time."}
-⚠ [837/837] Built CatalanCore.Arith.KqGen (8.4s)
-Build completed successfully (837 jobs).
-
-{"target": "CatalanCore.Arith.KqGen", "rc": 0, "budget": 2.5}

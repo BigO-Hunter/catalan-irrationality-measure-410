@@ -1,7 +1,0 @@
-{"target": "CatalanCore.Uniform.Bank.Sevenths.Roots", "mode": "build", "rc": 0, "wrapper_wall_seconds": 58.98321179999948, "sampled_wrapper_tree_peak_bytes": 2457923584, "lean_process_peak_working_sets_bytes": {"24196": 1825173504}, "log": "C:\\Users\\seanl\\Documents\\Codex\\2026-10-11\\plea\\outputs\\Compatibility programme\\lean-plan-2026-10-27\\evidence\\claude\\logs\\CatalanCore_Uniform_Bank_Sevenths_Roots-build-20261028-205739-18552.log", "observer": "creation-bound-v2", "note": "Tree includes wrapper/guard/Lake; individual Lean values are OS lifetime peaks. No CPU/kernel estimate inferred from wrapper time."}
-ℹ [3212/3212] Built CatalanCore.Uniform.Bank.Sevenths.Roots (19s)
-info: CatalanCore/Uniform/Bank/Sevenths/Roots.lean:87:0: 'CatalanCore.Uniform.Bank.Sevenths.seventhRho_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
-info: CatalanCore/Uniform/Bank/Sevenths/Roots.lean:88:0: 'CatalanCore.Uniform.Bank.Sevenths.seventh_palette_root' depends on axioms: [propext, Classical.choice, Quot.sound]
-Build completed successfully (3212 jobs).
-
-{"target": "CatalanCore.Uniform.Bank.Sevenths.Roots", "rc": 0, "budget": 2.5}

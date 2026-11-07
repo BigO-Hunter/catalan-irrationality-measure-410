@@ -1,4 +1,0 @@
-module
-public import CatalanMeasure.Parametric.PositiveResidual
-#print axioms CatalanMeasure.Parametric.positive_rowP_decomposition
-#print axioms CatalanMeasure.Parametric.near_sheet_factorization

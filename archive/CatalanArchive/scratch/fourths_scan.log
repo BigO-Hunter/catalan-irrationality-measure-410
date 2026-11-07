@@ -1,9 +1,0 @@
-control {'lp2w': False, 'pre_nmax': 0} Lam_fin 3.5165355045423583 mu 31.51127218028511
-scan {'lp2w': True, 'pre_nmax': 0} Lam_fin 3.5165355045423583 mu 31.51127218028511
-scan {'lp2w': True, 'pre_nmax': 1} Lam_fin 3.516153165778619 mu 31.45856152304097
-scan {'lp2w': True, 'pre_nmax': 2} Lam_fin 3.516079082458987 mu 31.44836850677335
-scan {'lp2w': True, 'pre_nmax': 4} Lam_fin 3.5160406462747384 mu 31.443082730130598
-scan {'lp2w': True, 'pre_nmax': 6} Lam_fin 3.5160299915316156 mu 31.44161779535419
-scan {'lp2w': True, 'pre_nmax': 8} Lam_fin 3.516025598361726 mu 31.441013812338028
-
-{"target": "job.BankSwitchFourthsScan", "rc": 0, "budget": 2.0}

@@ -1,7 +1,0 @@
-{
-  "CatalanCore\\Uniform\\Bank\\Lambda\\RankTools.lean": "53f33d439e580faeae916095f6a4f3ed61d23789962973f1737824780abd7f10",
-  "CatalanCore\\Uniform\\Bank\\Lambda\\RankBalance.lean": "395735821607d41d74c132fbd86fbc28ca260c9347bd5661017852064da23e68",
-  "CatalanCore\\Uniform\\Bank\\Lambda\\Assignment.lean": "6aac93de83627c27758e03bc2d1eea4731ba4c6312e81e715bbf2ab64c286bfe",
-  "scripts\\codex\\bank\\lambda\\fibre_assignment.py": "09894806dead9762b6c92d9d3550f17952e52a6be01ad99ba672bb6badd5bd74",
-  "scripts\\codex\\bank\\lambda\\generate_fibre.py": "b0d5d20ab107b7f9a334ac6fd00b0f593a95cd02a113df5d95f682867728226d"
-}

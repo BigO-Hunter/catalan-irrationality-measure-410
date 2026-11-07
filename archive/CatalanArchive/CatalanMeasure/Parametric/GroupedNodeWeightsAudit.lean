@@ -1,4 +1,0 @@
-module
-public import CatalanArchive.CatalanMeasure.Parametric.GroupedNodeWeights
-#print axioms CatalanMeasure.Parametric.marked_sheet_weight_cancellation
-#print axioms CatalanMeasure.Parametric.twenty_marked_sheet_weight_log

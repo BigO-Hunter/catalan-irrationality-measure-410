@@ -1,8 +1,0 @@
-{
-  "CatalanCore\\Uniform\\Bank\\Chi3Rank\\Fibre.lean": "c29d13343770113faf87644a86d61198344fae12a8f4a56eb71010a968aeffb3",
-  "CatalanCore\\Uniform\\Bank\\Lambda\\Boundary.lean": "eb4d4d956d8ac93e7de379e95c048b1d7a349f6024e01c3bf19791801433312f",
-  "CatalanCore\\Uniform\\Bank\\Lambda\\Rounding.lean": "7b1bf7e9fdfee0e4061b28387adb9c57b0e407a5df6ff1f9f0b1364d5f578e2e",
-  "CatalanCore\\Uniform\\Bank\\Lambda\\Realize.lean": "337193d7ee1a1319763bf6e9dd4b1b0cdabc04e668ebdd318f279289995c708d",
-  "CatalanCore\\Uniform\\Bank\\Lambda\\CommonMinorRealize.lean": "6db969a59250cb9f7629cb21f74d11d023aff0b55dde5536ad7d5feaae0d031d",
-  "scripts\\codex\\bank\\lambda\\generate_source.py": "997de02b12a6d19aa9304655f8b994990d918226cdc5403b240e1343707bcf84"
-}

@@ -1,5 +1,0 @@
-module
-public import CatalanMeasure.Parametric.KernelGram
-#print axioms CatalanMeasure.Parametric.firstSheetKernelVector_gram
-#print axioms CatalanMeasure.Parametric.sqrt_norm_firstSheetKernelVector_gram_det
-#print axioms CatalanMeasure.Parametric.firstSheetKernelVector_linearIndependent

@@ -1,9 +1,0 @@
-sevenths n 100 mu at the exact Lambda 2800.516422279952 slack 0.4835777200478141
-windows [(6, 6), (6, 7), (7, 7), (7, 8), (8, 8), (8, 9), (9, 9), (9, 10), (10, 10), (10, 11), (11, 11), (11, 12), (12, 12), (12, 13)]
-pieces {1: 707, 5: 759, 3: 811, 4: 811, 2: 759, 6: 707} tau 55/6
-max R_P 21840000.0 max C_needed 7207200000.0
-Lam_fin 3.6398277161918045 num digits 366
-mu(Lam_fin) 2800.608103475314 <= target True excess over exact 0.09168119536155853
-wrote C:\Users\seanl\Documents\Codex\2026-10-11\plea\work\catalan-uniform\CatalanCore\Uniform\Bank\SeventhsContent\AutoData.lean
-
-{"target": "job.BankSwitchSeventhsEmit", "rc": 0, "budget": 3.0}

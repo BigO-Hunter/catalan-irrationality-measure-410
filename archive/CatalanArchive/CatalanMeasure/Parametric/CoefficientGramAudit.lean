@@ -1,4 +1,0 @@
-module
-public import CatalanMeasure.Parametric.CoefficientGram
-#print axioms CatalanMeasure.Parametric.norm_sheetCoefficientFamily_inner_det
-#print axioms CatalanMeasure.Parametric.sqrt_norm_sheetCoefficientFamily_gram_det

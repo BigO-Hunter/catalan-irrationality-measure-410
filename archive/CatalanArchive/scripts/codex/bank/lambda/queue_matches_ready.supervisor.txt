@@ -1,2 +1,0 @@
-CatalanCore.Uniform.Bank.Lambda.RankMatch.C1S01 rc= 0
-CatalanCore.Uniform.Bank.Lambda.RankMatch.C1S02 rc= 0

@@ -1,4 +1,0 @@
-Preflight CatalanCore.Uniform.Content.RankProducer.LineTrim rc= 3 stale= ['CatalanCore.Uniform.Content.RankProducer.Balance']
-Preflight CatalanCore.Uniform.Content.RankProducer.Balance rc= 3 stale= ['CatalanCore.Uniform.Content.RankProducer.Balance']
-Submitted after preflight CatalanCore.Uniform.Content.RankProducer.Balance rc= 0
-Preflight CatalanCore.Uniform.Content.RankProducer.LineTrim rc= 3 stale= ['CatalanCore.Uniform.Content.RankProducer.LineTrim']

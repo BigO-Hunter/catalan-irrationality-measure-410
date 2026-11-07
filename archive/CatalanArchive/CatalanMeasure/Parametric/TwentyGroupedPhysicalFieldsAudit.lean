@@ -1,6 +1,0 @@
-module
-public import CatalanArchive.CatalanMeasure.Parametric.TwentyGroupedPhysicalFields
-#print axioms CatalanMeasure.Parametric.twenty_grouped_marked_field_bound
-#print axioms CatalanMeasure.Parametric.twenty_grouped_near_field_bound
-#print axioms CatalanMeasure.Parametric.twenty_grouped_error_tendsto
-#print axioms CatalanMeasure.Parametric.twenty_grouped_error_eventually

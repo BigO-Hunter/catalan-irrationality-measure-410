@@ -1,6 +1,0 @@
-{"target": "CatalanCore.Uniform.Content.BankShared.SawPrefix", "mode": "build", "rc": 0, "wrapper_wall_seconds": 78.95532989999992, "sampled_wrapper_tree_peak_bytes": 2708422656, "lean_process_peak_working_sets_bytes": {"17104": 2080722944}, "log": "C:\\Users\\seanl\\Documents\\Codex\\2026-10-11\\plea\\outputs\\Compatibility programme\\lean-plan-2026-10-27\\evidence\\claude\\logs\\CatalanCore_Uniform_Content_BankShared_SawPrefix-build-20261028-210101-26704.log", "observer": "creation-bound-v2", "note": "Tree includes wrapper/guard/Lake; individual Lean values are OS lifetime peaks. No CPU/kernel estimate inferred from wrapper time."}
-⚠ [3785/3785] Built CatalanCore.Uniform.Content.BankShared.SawPrefix (53s)
-info: CatalanCore/Uniform/Content/BankShared/SawPrefix.lean:142:0: 'CatalanCore.Uniform.Content.BankShared.SawPrefix.exists_mass_slack' depends on axioms: [propext,
-Build completed successfully (3785 jobs).
-
-{"target": "CatalanCore.Uniform.Content.BankShared.SawPrefix", "rc": 0, "budget": 2.5}

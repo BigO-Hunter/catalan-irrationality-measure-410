@@ -1,4 +1,0 @@
-module
-public import CatalanMeasure.Parametric.CoupledCosineRegularization
-#print axioms CatalanMeasure.Parametric.first_moment_product_damping_error
-#print axioms CatalanMeasure.Parametric.grouped_cosine_cross_canonical

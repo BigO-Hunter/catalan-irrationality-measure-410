@@ -1,6 +1,0 @@
-{"target": "CatalanCore.Uniform.Content.BankShared.LeastPrice", "mode": "preflight", "rc": 3, "wrapper_wall_seconds": 7.8520893000004435, "sampled_wrapper_tree_peak_bytes": 601534464, "lean_process_peak_working_sets_bytes": {}, "log": "C:\\Users\\seanl\\Documents\\Codex\\2026-10-11\\plea\\outputs\\Compatibility programme\\lean-plan-2026-10-27\\evidence\\claude\\logs\\CatalanCore_Uniform_Content_BankShared_LeastPrice-preflight.log", "observer": "creation-bound-v2", "note": "Tree includes wrapper/guard/Lake; individual Lean values are OS lifetime peaks. No CPU/kernel estimate inferred from wrapper time."}
-info: CatalanCore/Uniform/Content/ClearMin.lean:21:0: 'CatalanCore.Uniform.Content.gle_min' depends on axioms: [propext, Classical.choice, Quot.sound]
-✖ [1581/1581] Building CatalanCore.Uniform.Content.BankShared.LeastPrice
-error: target is out-of-date and needs to be rebuilt
-Some required targets logged failures:
-

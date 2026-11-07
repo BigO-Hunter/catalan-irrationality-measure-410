@@ -1,5 +1,0 @@
-Preflight CatalanCore.Uniform.Bank.Lambda.PrimeNormalisation rc= 3 stale= ['CatalanCore.Uniform.Content.BankShared.NormaliseGLE']
-Preflight CatalanCore.Uniform.Content.BankShared.NormaliseGLE rc= 3 stale= ['CatalanCore.Uniform.Content.BankShared.NormaliseGLE']
-Submitted after preflight CatalanCore.Uniform.Content.BankShared.NormaliseGLE rc= 0
-Preflight CatalanCore.Uniform.Bank.Lambda.PrimeNormalisation rc= 3 stale= ['CatalanCore.Uniform.Bank.Lambda.PrimeNormalisation']
-Submitted after preflight CatalanCore.Uniform.Bank.Lambda.PrimeNormalisation rc= 0

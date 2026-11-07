@@ -1,7 +1,0 @@
-Lambda bank execution contract, 2026-10-28
-Target: both lambda_measure signs at 315113/10000, content and decay discharged, standard-axiom audit.
-Current implementation: Geom -> NV -> Final; Frame; Final+Frame -> Members; Final -> Content; Members+Content -> Audit.
-Build one leaf at a time through lanes.py submit, 2.5 GB budget, no replacement driver or direct lake builds. No automatic retries except source fixes; stop on missing shared dependencies.
-Content remains an implementation task: q4 UF top extensions, 68 rank types/41 cells, physical realization/counts and full layer-minimum epsilon templates. Content.lean is an explicit conditional consumer.
-Decay waits for D17's committed unified generator; do not create another generator.
-Acceptance: successful source-bound lane receipts plus Audit output free of sorryAx and custom axioms. Conditional assembly alone is not target completion.

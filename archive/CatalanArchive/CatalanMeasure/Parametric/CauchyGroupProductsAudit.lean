@@ -1,4 +1,0 @@
-module
-public import CatalanMeasure.Parametric.CauchyGroupProducts
-#print axioms CatalanMeasure.Parametric.cauchyNodeProduct_sum
-#print axioms CatalanMeasure.Parametric.cauchy_group_volume_identity

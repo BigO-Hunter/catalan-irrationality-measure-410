@@ -1,8 +1,0 @@
--- Archived 2026-10-31 (Archive after R3). Unreached from the final roots: the four first-strip Level3 bank
--- roots (Level3Bound) and WrapPrefixCheck.catValid_prefix_full / catValid_prefix / catValid_prefix_R1
--- (declaration-level reachability from the built oleans, commit f633b92 + this edit). Source: WrapMemberWindow.
--- Kept for reference only; not part of the build. Never deleted.
-
--- ---- lines 81-82; context: namespace CatalanCore.Uniform.Content.UFSimple.WrapMemberWindow > namespace Setup
-theorem rep_bound : M.rep<N := by
-  have := M.hrepp; have := W.hp; have := W.hl; have := W.hls; have := W.hsize; omega

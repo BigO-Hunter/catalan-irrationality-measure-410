@@ -1,8 +1,0 @@
-module
-public import CatalanMeasure.Parametric.LowerPrimePool
-@[expose] public section
-#print axioms CatalanMeasure.Parametric.primeDigitPair_columns
-#print axioms CatalanMeasure.Parametric.rawEntry_pair_prime_integral
-#print axioms CatalanMeasure.Parametric.lowerPhysicalCombination_valuation
-#print axioms CatalanMeasure.Parametric.filteredEntry_eq_lower_physical_sum
-#print axioms CatalanMeasure.Parametric.determinantRat_lower_prime_valuation

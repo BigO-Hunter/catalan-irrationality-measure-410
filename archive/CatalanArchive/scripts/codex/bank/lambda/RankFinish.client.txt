@@ -1,5 +1,0 @@
-Preflight CatalanCore.Uniform.Bank.Lambda.RankFinish rc= 3 stale= ['CatalanCore.Uniform.Content.RankProducer.Balance', 'CatalanCore.Uniform.Content.RankProducer.LineCost', 'CatalanCore.Uniform.Content.RankProducer.ActiveFibres']
-Preflight CatalanCore.Uniform.Content.RankProducer.Balance rc= 0 stale= []
-Preflight CatalanCore.Uniform.Content.RankProducer.LineCost rc= 0 stale= []
-Preflight CatalanCore.Uniform.Content.RankProducer.ActiveFibres rc= 0 stale= []
-Preflight CatalanCore.Uniform.Bank.Lambda.RankFinish rc= 3 stale= ['CatalanCore.Uniform.Content.RankProducer.LineTrim']

@@ -1,8 +1,0 @@
-module
-public import CatalanArchive.CatalanMeasure.Parametric.TwentyTwoAdicAudit
-public import CatalanArchive.CatalanMeasure.Parametric.TwentyOddWeightedLimit
-@[expose] public section
-#print axioms CatalanMeasure.Parametric.twenty_combined_determinant_odd_profile
-#print axioms CatalanMeasure.Parametric.integral_twentyCombinedOddLoss
-#print axioms CatalanMeasure.Parametric.twentyCombinedOddLoss_prime_sum_tendsto
-#print axioms CatalanMeasure.Parametric.twentyCombinedOddLoss_normalized_prime_sum_tendsto

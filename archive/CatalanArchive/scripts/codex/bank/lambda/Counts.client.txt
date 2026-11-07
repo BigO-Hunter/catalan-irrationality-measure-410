@@ -1,2 +1,0 @@
-Preflight CatalanCore.Uniform.Content.RankProducer.Counts rc= 3 stale= ['CatalanCore.Uniform.Content.RankProducer.Counts']
-Submitted after preflight CatalanCore.Uniform.Content.RankProducer.Counts rc= 0

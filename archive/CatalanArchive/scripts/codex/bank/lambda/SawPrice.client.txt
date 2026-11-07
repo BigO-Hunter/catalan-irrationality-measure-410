@@ -1,2 +1,0 @@
-Preflight CatalanCore.Uniform.Bank.Lambda.SawPrice rc= 3 stale= ['CatalanCore.Uniform.Content.Wire.SawPrice']
-Preflight CatalanCore.Uniform.Content.Wire.SawPrice rc= 3 stale= ['CatalanCore.Uniform.Content.Wire.SawPrice']

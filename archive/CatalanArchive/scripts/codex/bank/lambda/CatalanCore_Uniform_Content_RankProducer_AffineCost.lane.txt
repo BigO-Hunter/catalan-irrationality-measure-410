@@ -1,9 +1,0 @@
-{"target": "CatalanCore.Uniform.Content.RankProducer.AffineCost", "mode": "build", "rc": 1, "wrapper_wall_seconds": 47.08035150000069, "sampled_wrapper_tree_peak_bytes": 2424844288, "lean_process_peak_working_sets_bytes": {"21336": 1799241728}, "log": "C:\\Users\\seanl\\Documents\\Codex\\2026-10-11\\plea\\outputs\\Compatibility programme\\lean-plan-2026-10-27\\evidence\\claude\\logs\\CatalanCore_Uniform_Content_RankProducer_AffineCost-build.log", "observer": "creation-bound-v2", "note": "Tree includes wrapper/guard/Lake; individual Lean values are OS lifetime peaks. No CPU/kernel estimate inferred from wrapper time."}
-✖ [3092/3092] Building CatalanCore.Uniform.Content.RankProducer.AffineCost (38s)
-error: CatalanCore/Uniform/Content/RankProducer/AffineCost.lean:6:52: unexpected token 'matches'; expected ')'
-error: CatalanCore/Uniform/Content/RankProducer/AffineCost.lean:22:14: Unknown constant `affine_line_price_bound`
-Some required targets logged failures:
-error: build failed
-
-{"target": "CatalanCore.Uniform.Content.RankProducer.AffineCost", "rc": 1, "budget": 2.5}
-

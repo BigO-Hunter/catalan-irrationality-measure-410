@@ -1,5 +1,0 @@
-module
-public import CatalanMeasure.Parametric.CoupledFirstEnergy
-#print axioms CatalanMeasure.Parametric.energy_tangent_with_first_remainder
-#print axioms CatalanMeasure.Parametric.coupled_energy_tangent_of_hasSum
-#print axioms CatalanMeasure.Parametric.pin_coupled_first_tangent

@@ -1,4 +1,0 @@
-module
-public import CatalanArchive.CatalanMeasure.Parametric.GapMain
-#print axioms CatalanMeasure.Parametric.catalan_irrationalityMeasure_878
-#print axioms CatalanMeasure.Parametric.catalan_irrationalityMeasure_2632

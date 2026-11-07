@@ -1,3 +1,0 @@
-module
-public import CatalanMeasure.Parametric.GroupedFieldAssembly
-#print axioms CatalanMeasure.Parametric.grouped_field_caps_bound

@@ -1,5 +1,0 @@
-Preflight CatalanCore.Uniform.Content.RankProducer.TrimCost rc= 3 stale= ['CatalanCore.Uniform.Content.RankProducer.LineMember']
-Preflight CatalanCore.Uniform.Content.RankProducer.LineMember rc= 0 stale= []
-Preflight CatalanCore.Uniform.Content.RankProducer.TrimCost rc= 3 stale= ['CatalanCore.Uniform.Content.RankProducer.TrimCost']
-Submitted after preflight CatalanCore.Uniform.Content.RankProducer.TrimCost rc= 1
-CatalanCore.Uniform.Content.RankProducer.TrimCost: rc=1

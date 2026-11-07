@@ -1,6 +1,0 @@
-Preflight CatalanCore.Uniform.Bank.Lambda.LP rc= 3 stale= ['CatalanCore.Uniform.Bank.Lambda.TwoTerm']
-Preflight CatalanCore.Uniform.Bank.Lambda.TwoTerm rc= 0 stale= []
-Preflight CatalanCore.Uniform.Bank.Lambda.LP rc= 3 stale= ['CatalanCore.Uniform.Bank.Lambda.LPWindows']
-Preflight CatalanCore.Uniform.Bank.Lambda.LPWindows rc= 0 stale= []
-Preflight CatalanCore.Uniform.Bank.Lambda.LP rc= 3 stale= ['CatalanCore.Uniform.Bank.Lambda.LP']
-Submitted after preflight CatalanCore.Uniform.Bank.Lambda.LP rc= 0

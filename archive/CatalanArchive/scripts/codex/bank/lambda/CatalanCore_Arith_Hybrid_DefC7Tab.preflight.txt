@@ -1,5 +1,0 @@
-{"target": "CatalanCore.Arith.Hybrid.DefC7Tab", "mode": "preflight", "rc": 3, "wrapper_wall_seconds": 7.932864399999744, "sampled_wrapper_tree_peak_bytes": 614744064, "lean_process_peak_working_sets_bytes": {}, "log": "C:\\Users\\seanl\\Documents\\Codex\\2026-10-11\\plea\\outputs\\Compatibility programme\\lean-plan-2026-10-27\\evidence\\claude\\logs\\CatalanCore_Arith_Hybrid_DefC7Tab-preflight.log", "observer": "creation-bound-v2", "note": "Tree includes wrapper/guard/Lake; individual Lean values are OS lifetime peaks. No CPU/kernel estimate inferred from wrapper time."}
-✖ [2401/2401] Building CatalanCore.Arith.Hybrid.DefC7Tab
-error: target is out-of-date and needs to be rebuilt
-Some required targets logged failures:
-

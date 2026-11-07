@@ -1,2 +1,0 @@
-Preflight CatalanCore.Uniform.Bank.Lambda.Price rc= 3 stale= ['CatalanCore.Uniform.Content.BankShared.LeastPrice']
-Preflight CatalanCore.Uniform.Content.BankShared.LeastPrice rc= 3 stale= ['CatalanCore.Uniform.Content.BankShared.LeastPrice']

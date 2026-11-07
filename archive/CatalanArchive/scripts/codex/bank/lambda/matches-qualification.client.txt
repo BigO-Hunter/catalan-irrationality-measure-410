@@ -1,5 +1,0 @@
-Preflight CatalanCore.Uniform.Bank.Lambda.RankMatch.C1S00 rc= 3 stale= ['CatalanCore.Uniform.Content.RankProducer.RationalMatches']
-Preflight CatalanCore.Uniform.Content.RankProducer.RationalMatches rc= 3 stale= ['CatalanCore.Uniform.Content.RankProducer.RationalMatches']
-Submitted after preflight CatalanCore.Uniform.Content.RankProducer.RationalMatches rc= 0
-Preflight CatalanCore.Uniform.Bank.Lambda.RankMatch.C1S00 rc= 3 stale= ['CatalanCore.Uniform.Bank.Lambda.RankMatch.C1S00']
-Submitted after preflight CatalanCore.Uniform.Bank.Lambda.RankMatch.C1S00 rc= 0

@@ -1,3 +1,0 @@
-Completion: unchanged chi3_measure_L2_rank bound, standard axioms, new cover import closure; old/new own successful build logs and unused legacy modules.
-Phases: preflight Env0; generate (two geometry slices, one energy slice, 2.5 GB each through shared driver); archive committed cover; emit/check exact Dt; build leaves with parallel 3 (Glob 6 GB); replace chi3_decay using AltDecay; final build and audit.
-Preserve unrelated work, no commits, no generator edits. Retry only on evidence; stale leaves first. Scratch stores source-bound logs and receipts. Shared driver owns admission. Existing driver and unrelated Thirds/Lambda/Sev jobs are live; no replacement launched.

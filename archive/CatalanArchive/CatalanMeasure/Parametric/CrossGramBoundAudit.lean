@@ -1,4 +1,0 @@
-module
-public import CatalanMeasure.Parametric.CrossGramBound
-#print axioms CatalanMeasure.Parametric.norm_innerMatrix_det_gram
-#print axioms CatalanMeasure.Parametric.grouped_innerMatrix_det_bound

@@ -1,9 +1,0 @@
-module
-public import Solution
-@[expose] public section
-#print axioms CatalanIrrationalityMeasure.catalan_irrationalityMeasure_955
-#print axioms CatalanIrrationalityMeasure.catalan_irrationalityMeasure_1091
-#print axioms CatalanIrrationalityMeasure.catalan_irrationalityMeasure_1095
-#print axioms CatalanIrrationalityMeasure.catalan_irrationalityMeasure_1099
-#print axioms CatalanIrrationalityMeasure.catalan_irrationalityMeasure_2864
-#print axioms CatalanIrrationalityMeasure.catalan_irrationalityMeasure_3662

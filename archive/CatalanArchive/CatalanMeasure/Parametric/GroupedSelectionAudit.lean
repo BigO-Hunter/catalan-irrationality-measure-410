@@ -1,5 +1,0 @@
-module
-public import CatalanMeasure.Parametric.GroupedSelection
-#print axioms CatalanMeasure.Parametric.exists_bool_partition
-#print axioms CatalanMeasure.Parametric.selected_laurent_det_reindex
-#print axioms CatalanMeasure.Parametric.selected_laurent_det_bound

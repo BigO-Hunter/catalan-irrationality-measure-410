@@ -1,2 +1,0 @@
-Preflight CatalanCore.Uniform.Bank.Lambda.Compact rc= 3 stale= ['CatalanCore.Uniform.Content.BankShared.LeastPrice']
-Adopting existing shared-lane job CatalanCore.Uniform.Content.BankShared.LeastPrice 1793249449454-ff883e

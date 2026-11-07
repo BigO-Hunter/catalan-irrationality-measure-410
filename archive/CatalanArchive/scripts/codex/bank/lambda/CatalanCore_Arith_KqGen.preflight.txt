@@ -1,3 +1,0 @@
-{"target": "CatalanCore.Arith.KqGen", "mode": "preflight", "rc": 0, "wrapper_wall_seconds": 21.959576500001276, "sampled_wrapper_tree_peak_bytes": 592080896, "lean_process_peak_working_sets_bytes": {}, "log": "C:\\Users\\seanl\\Documents\\Codex\\2026-10-11\\plea\\outputs\\Compatibility programme\\lean-plan-2026-10-27\\evidence\\claude\\logs\\CatalanCore_Arith_KqGen-preflight-20261028-220152-15728.log", "observer": "creation-bound-v2", "note": "Tree includes wrapper/guard/Lake; individual Lean values are OS lifetime peaks. No CPU/kernel estimate inferred from wrapper time."}
-
-

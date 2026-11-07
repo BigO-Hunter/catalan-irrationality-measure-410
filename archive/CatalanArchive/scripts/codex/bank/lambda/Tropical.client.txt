@@ -1,3 +1,0 @@
-Preflight CatalanCore.Uniform.Bank.Lambda.Tropical rc= 3 stale= ['CatalanCore.Arith.KqGen', 'CatalanCore.Arith.Hybrid.LemmaE.EntriesG', 'CatalanCore.Arith.Hybrid.DefC5Zero', 'CatalanCore.Arith.Hybrid.DefC7Tab', 'CatalanCore.Arith.Hybrid.LemmaE.EntriesE', 'CatalanCore.Arith.Hybrid.LemmaE.PairRank', 'CatalanCore.Arith.Hybrid.GKConditions', 'CatalanCore.Arith.Hybrid.LamPoleData', 'CatalanCore.Arith.Hybrid.PoleIntervals', 'CatalanFrames.HybCommon.Trop', 'CatalanFrames.LambdaMirrorHybrid.MirN', 'CatalanCore.Arith.Hybrid.InstNeg']
-Preflight CatalanCore.Arith.KqGen rc= 3 stale= ['CatalanCore.Arith.KqGen']
-Submitted after preflight CatalanCore.Arith.KqGen rc= 0

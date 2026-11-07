@@ -1,6 +1,0 @@
-module
-public import CatalanMeasure.Parametric.GroupedLaurentSheet
-#print axioms CatalanMeasure.Parametric.actual_laurent_factor
-#print axioms CatalanMeasure.Parametric.grouped_laurent_matrix_factor
-#print axioms CatalanMeasure.Parametric.grouped_laurent_weight_bound
-#print axioms CatalanMeasure.Parametric.grouped_laurent_det_bound

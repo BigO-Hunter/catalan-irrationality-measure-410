@@ -1,9 +1,0 @@
-lambda n 100 mu at the exact Lambda 31.44160060996317 slack 0.0003993900368295181
-windows [(5, 5), (5, 6), (6, 6), (6, 7), (7, 7), (7, 8), (8, 8), (8, 9), (9, 9), (9, 10), (10, 10), (10, 11)]
-pieces {1: 566, 3: 566} tau 14
-max R_P 8800000.0 max C_needed 2006400000.0
-Lam_fin 3.5160299915316156 num digits 144
-mu(Lam_fin) 31.44161779535419 <= target True excess over exact 1.7185391021461557e-05
-wrote C:\Users\seanl\Documents\Codex\2026-10-11\plea\work\catalan-uniform\CatalanCore\Uniform\Bank\LambdaContent\AutoData.lean
-
-{"target": "job.BankSwitchFourthsEmit", "rc": 0, "budget": 2.0}

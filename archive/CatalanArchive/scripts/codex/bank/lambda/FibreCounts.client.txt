@@ -1,3 +1,0 @@
-Preflight CatalanCore.Uniform.Content.RankProducer.FibreCounts rc= 3 stale= ['CatalanCore.Uniform.Content.RankProducer.FibreCounts']
-Submitted after preflight CatalanCore.Uniform.Content.RankProducer.FibreCounts rc= 1
-CatalanCore.Uniform.Content.RankProducer.FibreCounts: rc=1

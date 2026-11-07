@@ -1,5 +1,0 @@
-{"target": "CatalanCore.Uniform.Bank.Lambda.SawPrice", "mode": "preflight", "rc": 3, "wrapper_wall_seconds": 26.34041780000007, "sampled_wrapper_tree_peak_bytes": 612151296, "lean_process_peak_working_sets_bytes": {}, "log": "C:\\Users\\seanl\\Documents\\Codex\\2026-10-11\\plea\\outputs\\Compatibility programme\\lean-plan-2026-10-27\\evidence\\claude\\logs\\CatalanCore_Uniform_Bank_Lambda_SawPrice-preflight-20261028-215842-25636.log", "observer": "creation-bound-v2", "note": "Tree includes wrapper/guard/Lake; individual Lean values are OS lifetime peaks. No CPU/kernel estimate inferred from wrapper time."}
-✖ [2122/2124] Building CatalanCore.Uniform.Content.Wire.SawPrice
-error: target is out-of-date and needs to be rebuilt
-Some required targets logged failures:
-

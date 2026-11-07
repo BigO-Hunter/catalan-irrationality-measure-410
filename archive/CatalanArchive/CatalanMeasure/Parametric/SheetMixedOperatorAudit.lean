@@ -1,4 +1,0 @@
-module
-public import CatalanMeasure.Parametric.SheetMixedOperator
-#print axioms CatalanMeasure.Parametric.sheetSpaceMixedOperator_norm_le
-#print axioms CatalanMeasure.Parametric.sheetSpaceMixedOperator_inner_coefficient

@@ -1,8 +1,0 @@
-module
-public import CatalanArchive.CatalanMeasure.Parametric.TwentyDenominatorAsymptotic
-@[expose] public section
-#print axioms CatalanMeasure.Parametric.twenty_integer_determinant_valuation
-#print axioms CatalanMeasure.Parametric.twenty_den_dvd_denomBound
-#print axioms CatalanMeasure.Parametric.twenty_exists_int_denomBound_mul
-#print axioms CatalanMeasure.Parametric.twenty_log_denomBound_le
-#print axioms CatalanMeasure.Parametric.twenty_log_denomBound_eventually_le

@@ -1,6 +1,0 @@
-{"target": "CatalanCore.Uniform.Bank.Lambda.Frame", "mode": "build", "rc": 0, "wrapper_wall_seconds": 17.473577099999602, "sampled_wrapper_tree_peak_bytes": 2442338304, "lean_process_peak_working_sets_bytes": {"16200": 1814982656}, "log": "C:\\Users\\seanl\\Documents\\Codex\\2026-10-11\\plea\\outputs\\Compatibility programme\\lean-plan-2026-10-27\\evidence\\claude\\logs\\CatalanCore_Uniform_Bank_Lambda_Frame-build-20261028-190324-16480.log", "observer": "creation-bound-v2", "note": "Tree includes wrapper/guard/Lake; individual Lean values are OS lifetime peaks. No CPU/kernel estimate inferred from wrapper time."}
-⚠ [3225/3225] Built CatalanCore.Uniform.Bank.Lambda.Frame (12s)
-Build completed successfully (3225 jobs).
-
-{"target": "CatalanCore.Uniform.Bank.Lambda.Frame", "rc": 0, "budget": 2.5}
-

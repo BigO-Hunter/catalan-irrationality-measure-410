@@ -1,5 +1,0 @@
-{
-  "ProcessId": 1216,
-  "CreationDate": "2026-10-28T21:57:29.769997-07:00",
-  "CommandLine": "\"c:\\Users\\seanl\\Documents\\Codex\\2026-10-11\\plea\\work\\lean-runtime\\lean-4.35.0-rc2-windows\\bin\\lean.exe\" \"C:\\Users\\seanl\\Documents\\Codex\\2026-10-11\\plea\\work\\catalan-uniform\\CatalanCore\\Uniform\\Bank\\Common\\Data\\Sev1\\Segs.lean\" \"-o\" \"C:\\Users\\seanl\\Documents\\Codex\\2026-10-11\\plea\\work\\catalan-uniform\\.lake\\build\\lib\\lean\\CatalanCore\\Uniform\\Bank\\Common\\Data\\Sev1\\Segs.olean\" \"-i\" \"C:\\Users\\seanl\\Documents\\Codex\\2026-10-11\\plea\\work\\catalan-uniform\\.lake\\build\\lib\\lean\\CatalanCore\\Uniform\\Bank\\Common\\Data\\Sev1\\Segs.ilean\" \"-c\" \"C:\\Users\\seanl\\Documents\\Codex\\2026-10-11\\plea\\work\\catalan-uniform\\.lake\\build\\ir\\CatalanCore\\Uniform\\Bank\\Common\\Data\\Sev1\\Segs.c\" \"--setup\" \"C:\\Users\\seanl\\Documents\\Codex\\2026-10-11\\plea\\work\\catalan-uniform\\.lake\\build\\ir\\CatalanCore\\Uniform\\Bank\\Common\\Data\\Sev1\\Segs.setup.json\" \"--json\""
-}

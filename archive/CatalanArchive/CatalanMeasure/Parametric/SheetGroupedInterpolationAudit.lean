@@ -1,4 +1,0 @@
-module
-public import CatalanMeasure.Parametric.SheetGroupedInterpolation
-#print axioms CatalanMeasure.Parametric.grouped_actual_sheet_det_bound
-#print axioms CatalanMeasure.Parametric.grouped_near_sheet_det_bound

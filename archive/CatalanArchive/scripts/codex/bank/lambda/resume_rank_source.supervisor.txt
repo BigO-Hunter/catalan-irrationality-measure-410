@@ -1,5 +1,0 @@
-Resuming unfinished rank/source 72
-CatalanCore.Uniform.Bank.Lambda.RankData.C1T19 rc= 0
-CatalanCore.Uniform.Bank.Lambda.RankSource.C1S18 rc= 1
-CatalanCore.Uniform.Bank.Lambda.RankSource.C1S17 rc= 1
-CatalanCore.Uniform.Bank.Lambda.RankSource.C1S19 rc= 1

@@ -1,6 +1,0 @@
-{
-  "status": "ABANDONED_DIRECT_FD_PROJECTION_RESOURCE_GATE",
-  "source_sha256": "f4456622681319e004e54831144c0c1627ed1d6766c1367135cee2fa7d3ba63f",
-  "evidence": "C:\\Users\\seanl\\Documents\\Codex\\2026-10-11\\plea\\outputs\\Compatibility programme\\chi3-contour-2026-10-24\\far-components-pilot-v1\\manifest.json",
-  "reason": "No component profile completed/flushed before resource guard killed worker tree. Existing FD recurrence projection did not satisfy bounded memory requirement. No control rerun or larger-budget retry."
-}

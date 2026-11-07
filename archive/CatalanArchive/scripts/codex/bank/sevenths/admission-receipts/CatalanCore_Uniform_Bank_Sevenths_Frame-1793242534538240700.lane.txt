@@ -1,5 +1,0 @@
-{"target": "CatalanCore.Uniform.Bank.Sevenths.Frame", "mode": "build", "rc": 0, "wrapper_wall_seconds": 74.93068370000037, "sampled_wrapper_tree_peak_bytes": 2448494592, "lean_process_peak_working_sets_bytes": {"28432": 1828823040}, "log": "C:\\Users\\seanl\\Documents\\Codex\\2026-10-11\\plea\\outputs\\Compatibility programme\\lean-plan-2026-10-27\\evidence\\claude\\logs\\CatalanCore_Uniform_Bank_Sevenths_Frame-build-20261028-195415-27496.log", "observer": "creation-bound-v2", "note": "Tree includes wrapper/guard/Lake; individual Lean values are OS lifetime peaks. No CPU/kernel estimate inferred from wrapper time."}
-⚠ [3211/3211] Built CatalanCore.Uniform.Bank.Sevenths.Frame (40s)
-Build completed successfully (3211 jobs).
-
-{"target": "CatalanCore.Uniform.Bank.Sevenths.Frame", "rc": 0, "budget": 2.5}

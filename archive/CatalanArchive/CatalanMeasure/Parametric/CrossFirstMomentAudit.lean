@@ -1,5 +1,0 @@
-module
-public import CatalanMeasure.Parametric.CrossFirstMoment
-#print axioms CatalanMeasure.Parametric.crossCauchyProduct_log_le_first_moment
-#print axioms CatalanMeasure.Parametric.crossCauchyProduct_le_exp_first_moment
-#print axioms CatalanMeasure.Parametric.first_moment_coupled_dual

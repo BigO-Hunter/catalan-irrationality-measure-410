@@ -1,9 +1,0 @@
-module
-public import CatalanArchive.CatalanMeasure.Parametric.GroupedMarkedFields
-#print axioms CatalanMeasure.Parametric.commonFactor_coordinate_log_full
-#print axioms CatalanMeasure.Parametric.population_row_field_sub_common_full
-#print axioms CatalanMeasure.Parametric.near_residual_field_le_three_quarters
-#print axioms CatalanMeasure.Parametric.twenty_finite_near_field_bound
-#print axioms CatalanMeasure.Parametric.twenty_marked_actual_field_after_common
-#print axioms CatalanMeasure.Parametric.twenty_marked_near_field_after_common
-#print axioms CatalanMeasure.Parametric.twenty_marked_first_field_after_common

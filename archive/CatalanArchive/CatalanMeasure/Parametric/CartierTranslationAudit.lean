@@ -1,8 +1,0 @@
-module
-public import CatalanArchive.CatalanMeasure.Parametric.CartierTranslation
-public section
-#print axioms CatalanMeasure.Parametric.choose_cartier_digit
-#print axioms CatalanMeasure.Parametric.coeff_translate_one
-#print axioms CatalanMeasure.Parametric.cartier_coeff_translate
-#print axioms CatalanMeasure.Parametric.coeff_cartier_translate_lowDegree
-#print axioms CatalanMeasure.Parametric.cartier_pairing_translate

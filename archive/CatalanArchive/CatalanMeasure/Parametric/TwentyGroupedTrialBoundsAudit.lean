@@ -1,5 +1,0 @@
-module
-public import CatalanArchive.CatalanMeasure.Parametric.TwentyGroupedTrialBounds
-#print axioms CatalanMeasure.Parametric.TwentyCertified.p20_first_lower
-#print axioms CatalanMeasure.Parametric.TwentyCertified.grouped_marked_field_bound
-#print axioms CatalanMeasure.Parametric.TwentyCertified.grouped_near_field_bound

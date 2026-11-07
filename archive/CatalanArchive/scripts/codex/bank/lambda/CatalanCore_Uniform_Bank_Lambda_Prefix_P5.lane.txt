@@ -1,7 +1,0 @@
-{"target": "CatalanCore.Uniform.Bank.Lambda.Prefix.P5", "mode": "build", "rc": 0, "wrapper_wall_seconds": 7.274062800000138, "sampled_wrapper_tree_peak_bytes": 620335104, "lean_process_peak_working_sets_bytes": {}, "log": "C:\\Users\\seanl\\Documents\\Codex\\2026-10-11\\plea\\outputs\\Compatibility programme\\lean-plan-2026-10-27\\evidence\\claude\\logs\\CatalanCore_Uniform_Bank_Lambda_Prefix_P5-build.log", "observer": "creation-bound-v2", "note": "Tree includes wrapper/guard/Lake; individual Lean values are OS lifetime peaks. No CPU/kernel estimate inferred from wrapper time."}
-info: CatalanCore/Uniform/Bank/Lambda/Prefix/P5.lean:47:0: 'CatalanCore.Uniform.Bank.Lambda.prefix5_chain' depends on axioms: [propext, Classical.choice, Quot.sound]
-info: CatalanCore/Uniform/Bank/Lambda/Prefix/P5.lean:48:0: 'CatalanCore.Uniform.Bank.Lambda.prefix5_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
-Build completed successfully (3785 jobs).
-
-{"target": "CatalanCore.Uniform.Bank.Lambda.Prefix.P5", "rc": 0, "budget": 2.5}
-

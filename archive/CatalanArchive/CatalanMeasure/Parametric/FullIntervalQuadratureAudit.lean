@@ -1,5 +1,0 @@
-module
-public import CatalanArchive.CatalanMeasure.Parametric.FullIntervalQuadrature
-#print axioms CatalanMeasure.Parametric.norm_full_quadBasis_eval_radius_le
-#print axioms CatalanMeasure.Parametric.twenty_full_filtered_basis_le
-#print axioms CatalanMeasure.Parametric.fullIntervalCircleK_le_exp

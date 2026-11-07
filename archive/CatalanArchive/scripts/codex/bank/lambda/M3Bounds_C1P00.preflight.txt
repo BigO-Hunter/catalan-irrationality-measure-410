@@ -1,3 +1,0 @@
-{"target": "M3Bounds.C1P00", "mode": "preflight", "rc": 1, "wrapper_wall_seconds": 4.60276309999972, "sampled_wrapper_tree_peak_bytes": 565141504, "lean_process_peak_working_sets_bytes": {}, "log": "C:\\Users\\seanl\\Documents\\Codex\\2026-10-11\\plea\\outputs\\Compatibility programme\\lean-plan-2026-10-27\\evidence\\claude\\logs\\M3Bounds_C1P00-preflight.log", "observer": "creation-bound-v2", "note": "Tree includes wrapper/guard/Lake; individual Lean values are OS lifetime peaks. No CPU/kernel estimate inferred from wrapper time."}
-error: unknown target `M3Bounds.C1P00`
-

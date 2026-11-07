@@ -1,9 +1,0 @@
-{"target": "CatalanCore.Uniform.Bank.Common.Data.Lambda.Frame", "mode": "preflight", "rc": 3, "wrapper_wall_seconds": 11.661992999999711, "sampled_wrapper_tree_peak_bytes": 629866496, "lean_process_peak_working_sets_bytes": {}, "log": "C:\\Users\\seanl\\Documents\\Codex\\2026-10-11\\plea\\outputs\\Compatibility programme\\lean-plan-2026-10-27\\evidence\\claude\\logs\\CatalanCore_Uniform_Bank_Common_Data_Lambda_Frame-preflight.log", "observer": "creation-bound-v2", "note": "Tree includes wrapper/guard/Lake; individual Lean values are OS lifetime peaks. No CPU/kernel estimate inferred from wrapper time."}
-info: CatalanCore/Decay/Rect/HybridHook.lean:84:0: 'CatalanCore.HybridDecayData.hybridDecay' depends on axioms: [propext, Classical.choice, Quot.sound]
-info: CatalanCore/Decay/Rect/HybridHook.lean:85:0: 'CatalanCore.HybridDecayData.membersDecay' depends on axioms: [propext, Classical.choice, Quot.sound]
-info: CatalanCore/Decay/Rect/HybridHook.lean:86:0: 'CatalanCore.HybridDecayData.pairDecay' depends on axioms: [propext, Classical.choice, Quot.sound]
-info: CatalanCore/Decay/Rect/HybridHook.lean:87:0: 'CatalanCore.HybridDecayData.commonMinorDecay' depends on axioms: [propext, Classical.choice, Quot.sound]
-✖ [3092/3092] Building CatalanCore.Uniform.Bank.Common.Data.Lambda.Frame
-error: target is out-of-date and needs to be rebuilt
-Some required targets logged failures:
-

@@ -1,6 +1,0 @@
-Preflight CatalanCore.Uniform.Bank.Lambda.RankPrice.C1S00 rc= 3 stale= ['CatalanCore.Uniform.Content.RankProducer.LineCost']
-Preflight CatalanCore.Uniform.Content.RankProducer.LineCost rc= 3 stale= ['CatalanCore.Uniform.Content.RankProducer.LineCost']
-Submitted after preflight CatalanCore.Uniform.Content.RankProducer.LineCost rc= 0
-Preflight CatalanCore.Uniform.Bank.Lambda.RankPrice.C1S00 rc= 3 stale= ['CatalanCore.Uniform.Content.RankProducer.ActiveFibres', 'CatalanCore.Uniform.Content.RankProducer.AffineCost', 'CatalanCore.Uniform.Content.RankProducer.LineTrim', 'CatalanCore.Uniform.Bank.Lambda.RankFacts.C1S00']
-Preflight CatalanCore.Uniform.Content.RankProducer.ActiveFibres rc= 0 stale= []
-Preflight CatalanCore.Uniform.Content.RankProducer.AffineCost rc= 3 stale= ['CatalanCore.Uniform.Content.RankProducer.AffineCost']

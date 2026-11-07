@@ -1,8 +1,0 @@
-module
-public import CatalanArchive.CatalanMeasure.Parametric.FiniteEvaluationRoot
-public section
-#print axioms CatalanMeasure.Parametric.sum_eval_lowDegree
-#print axioms CatalanMeasure.Parametric.coeff_evaluationGeneratingPoly_translate
-#print axioms CatalanMeasure.Parametric.coeff_evaluationGeneratingPoly_translate_zero
-#print axioms CatalanMeasure.Parametric.evaluationGeneratingPoly_root_order
-#print axioms CatalanMeasure.Parametric.evaluationGeneratingPoly_root_one

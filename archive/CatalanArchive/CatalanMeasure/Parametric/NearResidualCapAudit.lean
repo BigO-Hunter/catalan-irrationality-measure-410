@@ -1,3 +1,0 @@
-module
-public import CatalanArchive.CatalanMeasure.Parametric.NearResidualCap
-#print axioms CatalanMeasure.Parametric.near_residual_field_le

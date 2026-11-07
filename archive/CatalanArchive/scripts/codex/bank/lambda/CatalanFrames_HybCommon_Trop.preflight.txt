@@ -1,7 +1,0 @@
-{"target": "CatalanFrames.HybCommon.Trop", "mode": "preflight", "rc": 3, "wrapper_wall_seconds": 15.554039999999077, "sampled_wrapper_tree_peak_bytes": 644427776, "lean_process_peak_working_sets_bytes": {}, "log": "C:\\Users\\seanl\\Documents\\Codex\\2026-10-11\\plea\\outputs\\Compatibility programme\\lean-plan-2026-10-27\\evidence\\claude\\logs\\CatalanFrames_HybCommon_Trop-preflight.log", "observer": "creation-bound-v2", "note": "Tree includes wrapper/guard/Lake; individual Lean values are OS lifetime peaks. No CPU/kernel estimate inferred from wrapper time."}
-info: CatalanFrames/HybGen/TropM.lean:62:0: 'CatalanFrames.HybGen.XGm_D2' depends on axioms: [propext, Classical.choice, Quot.sound]
-info: CatalanFrames/HybGen/TropM.lean:63:0: 'CatalanFrames.HybGen.XGm_D1x' depends on axioms: [propext, Classical.choice, Quot.sound]
-✖ [3823/3823] Building CatalanFrames.HybCommon.Trop
-error: target is out-of-date and needs to be rebuilt
-Some required targets logged failures:
-

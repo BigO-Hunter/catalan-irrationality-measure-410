@@ -1,9 +1,0 @@
-{"target": "CatalanCore.Uniform.Content.BankShared.SawPrefix", "mode": "build", "rc": 1, "wrapper_wall_seconds": 60.992069699999774, "sampled_wrapper_tree_peak_bytes": 2698833920, "lean_process_peak_working_sets_bytes": {"11128": 2062311424}, "log": "C:\\Users\\seanl\\Documents\\Codex\\2026-10-11\\plea\\outputs\\Compatibility programme\\lean-plan-2026-10-27\\evidence\\claude\\logs\\CatalanCore_Uniform_Content_BankShared_SawPrefix-build.log", "observer": "creation-bound-v2", "note": "Tree includes wrapper/guard/Lake; individual Lean values are OS lifetime peaks. No CPU/kernel estimate inferred from wrapper time."}
-✖ [3785/3785] Building CatalanCore.Uniform.Content.BankShared.SawPrefix (28s)
-error: CatalanCore/Uniform/Content/BankShared/SawPrefix.lean:26:4: linarith failed to find a contradiction
-error: CatalanCore/Uniform/Content/BankShared/SawPrefix.lean:119:2: linarith failed to find a contradiction
-info: CatalanCore/Uniform/Content/BankShared/SawPrefix.lean:131:0: 'CatalanCore.Uniform.Content.BankShared.SawPrefix.exists_mass_slack' depends on axioms: [propext,
-Some required targets logged failures:
-error: build failed
-
-{"target": "CatalanCore.Uniform.Content.BankShared.SawPrefix", "rc": 1, "budget": 2.5}

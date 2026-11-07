@@ -1,4 +1,0 @@
-D17 stage env
-wrote Env0.lean: 3 edges, pieces 25
-Preflight CatalanCore.Uniform.Bank.Lambda.Cover.Env0 rc= 3 stale= ['CatalanCore.Uniform.Bank.Common.Data.Lambda.Segs', 'CatalanCore.Uniform.Bank.Common.Data.Lambda.Cells', 'CatalanCore.Uniform.Bank.Common.Data.Lambda.Frame']
-Preflight CatalanCore.Uniform.Bank.Common.Data.Lambda.Segs rc= 3 stale= ['CatalanCore.Uniform.Bank.Common.Data.Lambda.Segs']

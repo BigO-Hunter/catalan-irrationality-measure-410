@@ -1,8 +1,0 @@
-{"target": "CatalanCore.Uniform.Bank.Sevenths.Frame", "mode": "build", "rc": 1, "wrapper_wall_seconds": 74.85208289999991, "sampled_wrapper_tree_peak_bytes": 2438942720, "lean_process_peak_working_sets_bytes": {"3860": 1819557888}, "log": "C:\\Users\\seanl\\Documents\\Codex\\2026-10-11\\plea\\outputs\\Compatibility programme\\lean-plan-2026-10-27\\evidence\\claude\\logs\\CatalanCore_Uniform_Bank_Sevenths_Frame-build-20261028-194752-7036.log", "observer": "creation-bound-v2", "note": "Tree includes wrapper/guard/Lake; individual Lean values are OS lifetime peaks. No CPU/kernel estimate inferred from wrapper time."}
-✖ [3211/3211] Building CatalanCore.Uniform.Bank.Sevenths.Frame (36s)
-error: CatalanCore/Uniform/Bank/Sevenths/Frame.lean:101:18: Expected type must not contain free variables
-error: CatalanCore/Uniform/Bank/Sevenths/Frame.lean:101:18: Expected type must not contain free variables
-Some required targets logged failures:
-error: build failed
-
-{"target": "CatalanCore.Uniform.Bank.Sevenths.Frame", "rc": 1, "budget": 2.5}

@@ -1,5 +1,0 @@
-Preflight CatalanCore.Uniform.Content.RankProducer.LineCost rc= 3 stale= ['CatalanCore.Uniform.Content.RankProducer.FibreCounts']
-Preflight CatalanCore.Uniform.Content.RankProducer.FibreCounts rc= 3 stale= ['CatalanCore.Uniform.Content.RankProducer.FibreCounts']
-Submitted after preflight CatalanCore.Uniform.Content.RankProducer.FibreCounts rc= 0
-Preflight CatalanCore.Uniform.Content.RankProducer.LineCost rc= 3 stale= ['CatalanCore.Uniform.Content.RankProducer.LineCost']
-Submitted after preflight CatalanCore.Uniform.Content.RankProducer.LineCost rc= 0

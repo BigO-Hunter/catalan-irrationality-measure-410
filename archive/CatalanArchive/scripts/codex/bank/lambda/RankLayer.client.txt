@@ -1,1 +1,0 @@
-Preflight CatalanCore.Uniform.Bank.Lambda.RankLayer rc= 3 stale= ['CatalanCore.Uniform.Bank.Lambda.RankLayer']

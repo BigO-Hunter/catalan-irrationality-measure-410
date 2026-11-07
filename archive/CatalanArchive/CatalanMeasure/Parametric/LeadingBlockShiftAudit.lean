@@ -1,8 +1,0 @@
-module
-public import CatalanArchive.CatalanMeasure.Parametric.LeadingBlockShift
-public import CatalanArchive.CatalanMeasure.Parametric.MonomialContactShift
-public section
-#print axioms CatalanMeasure.Parametric.leadingBlock_shift_noncarry
-#print axioms CatalanMeasure.Parametric.leadingBlock_shift_carry
-#print axioms CatalanMeasure.Parametric.monomialContactQ_shift
-#print axioms CatalanMeasure.Parametric.monomialContactD_boundary

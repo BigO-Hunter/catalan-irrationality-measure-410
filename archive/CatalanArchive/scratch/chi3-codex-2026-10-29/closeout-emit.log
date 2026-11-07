@@ -1,5 +1,0 @@
-cells 189 tube {0: 27, 2: 22, 4: 12, 6: 2, 1: 25, 3: 17, 5: 7, 7: 2} line 49 cap 26
-[(('cap', 'PL'), 5), (('cap', 'bp'), 10), (('cap', 'jet'), 11), (('line', 'bp'), 14), (('line', 'jet'), 35), (('tube', 'bp'), 18), (('tube', 'bp/flip'), 5), (('tube', 'jet'), 86), (('tube', 'jet/flip'), 2), (('tube', 'mp'), 3)]
-Esum 1.7970223603670683 Ibound 1.797022360369 ok True
-Dt 4.643511791526209 -> 4.643511791526209
-emitted 189 cells
