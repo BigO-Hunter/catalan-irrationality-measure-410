@@ -2,6 +2,7 @@ module
 
 public import Submission.CatalanMeasure.GenD.Signed.Data.Cells.Q1.SpiFq
 public import Submission.CatalanMeasure.GenD.Signed.Data.Cells.PolySplit
+public import Submission.CatalanMeasure.GenD.Signed.Data.Consts.LinkSlope
 
 @[expose] public section
 

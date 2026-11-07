@@ -1,6 +1,7 @@
 module
 
 public import Submission.CatalanMeasure.GenD.Signed.Data.Consts.EvalRefMD
+public import Submission.CatalanMeasure.GenD.Signed.Data.Consts.EvalRefX01
 
 @[expose] public section
 

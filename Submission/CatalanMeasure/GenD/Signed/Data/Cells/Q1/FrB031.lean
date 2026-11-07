@@ -2,6 +2,7 @@ module
 
 public import Submission.CatalanMeasure.GenD.Signed.Data.Cells.Q1.FrFq
 public import Submission.CatalanMeasure.GenD.Signed.Data.Cells.PolySplit
+public import Submission.CatalanMeasure.GenD.Signed.Data.Cells.Q1.SpiB011
 
 @[expose] public section
 

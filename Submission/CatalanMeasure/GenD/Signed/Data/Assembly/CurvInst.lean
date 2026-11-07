@@ -26,10 +26,11 @@ namespace CatalanMeasure.GenD.Signed.Data.Assembly
 open Set Filter
 open CatalanMeasure.Signed CatalanMeasure.Signed.Consts CatalanMeasure.GenD.Signed.Data.Trial
 open CatalanMeasure.GenD.Signed.Data.Consts.EvalRef
-open CatalanMeasure.GenD.Signed.Data.Consts.EvalRef.E0 (enL0)
-open CatalanMeasure.GenD.Signed.Data.Consts.EvalRef.E1 (enL1)
-open CatalanMeasure.GenD.Signed.Data.Consts.EvalRef.E2 (enL2)
-open CatalanMeasure.GenD.Signed.Data.Consts.EvalRef (xU01 xU12)
+open CatalanMeasure.GenD.Signed.Data.Consts.EvalRef.E0 (enL0 refEnergy_T0_ge)
+open CatalanMeasure.GenD.Signed.Data.Consts.EvalRef.E1 (enL1 refEnergy_T1_ge)
+open CatalanMeasure.GenD.Signed.Data.Consts.EvalRef.E2 (enL2 refEnergy_T2_ge)
+open CatalanMeasure.GenD.Signed.Data.Consts.EvalRef.X01 (xU01 refBil_T01_le)
+open CatalanMeasure.GenD.Signed.Data.Consts.EvalRef.X12 (xU12 refBil_T12_le)
 open CatalanMeasure.Cert.Iv
 
 set_option maxRecDepth 1000000

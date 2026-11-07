@@ -1,6 +1,7 @@
 module
 
 public import Submission.CatalanMeasure.GenD.Signed.Data.Consts.EvalRefMD
+public import Submission.CatalanMeasure.GenD.Signed.Data.Consts.EvalRefE2
 
 @[expose] public section
 
@@ -25,7 +26,7 @@ independent kernel checks, each small:
 * `enc_eq` — the shared `LF.enc 7` value, reused by every bound in this module.
 -/
 
-namespace CatalanMeasure.GenD.Signed.Data.Consts.EvalRef
+namespace CatalanMeasure.GenD.Signed.Data.Consts.EvalRef.X12
 open CatalanMeasure.Signed CatalanMeasure.Signed.FieldForm CatalanMeasure.GenD.Signed.Data.Trial
 open CatalanMeasure.GenD.Signed.LogEval
 open CatalanMeasure.Cert (qabs)
@@ -217,5 +218,4 @@ theorem refBil_T12_le {μ ν : SRef} (hμ : IsRefQ μ (ofTrial T1.trial)) (hν :
 
 end
 
-end CatalanMeasure.GenD.Signed.Data.Consts.EvalRef
-
+end CatalanMeasure.GenD.Signed.Data.Consts.EvalRef.X12

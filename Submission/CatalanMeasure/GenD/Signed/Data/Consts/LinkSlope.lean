@@ -3,6 +3,7 @@ module
 public import Submission.CatalanMeasure.CellCert.RawInts
 public import Submission.CatalanMeasure.GenD.Signed.Data.Consts.PolyPos
 public import Submission.CatalanMeasure.GenD.Signed.Data.Consts.LinkP
+public import Submission.CatalanMeasure.GenD.Signed.Data.Consts.EvalRefE0
 
 @[expose] public section
 
