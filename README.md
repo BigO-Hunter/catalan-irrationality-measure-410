@@ -283,3 +283,16 @@ Submissions to the registry go through the form at https://submit.palomar-regist
 ## Licence
 
 Apache License 2.0; see [`LICENSE`](LICENSE) and [`NOTICE`](NOTICE).
+
+---
+
+## Why this repo is up
+
+Reproducible verified bounds: Litsey's μ(G) ≤ 410 measure converted to the verifier's Submission layout — public evidence for independent rebuilds.
+
+[BigO-Hunter](https://github.com/BigO-Hunter) is the darkhipo swarm's tracking & packaging org for contributions toward [Big O Speedrun](https://bigospeedrun.com) — a companion, never the project. Org story: [profile](https://github.com/BigO-Hunter/.github) · [bigo-hunter.github.io](https://bigo-hunter.github.io).
+
+## What work can be done here
+
+The conversion is complete at Lean v4.34.1 / Mathlib d13f23b7. Open work: independent rebuilds; work below the 295 frontier (see catalan-295-litsey-port).
+
