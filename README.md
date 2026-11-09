@@ -282,7 +282,7 @@ Submissions to the registry go through the form at https://submit.palomar-regist
 
 ## Licence
 
-Apache License 2.0; see [`LICENSE`](LICENSE) and [`NOTICE`](NOTICE).
+Licensed under the Copy-Free/Stays-Free (CFSF) License — see [`LICENSE`](LICENSE) and [`NOTICE`](NOTICE) ([github.com/darkhipo/cfsf](https://github.com/darkhipo/cfsf)).
 
 ---
 
