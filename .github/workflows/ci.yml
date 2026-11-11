@@ -77,7 +77,11 @@ jobs:
   build:
     name: Build with Lean
     runs-on: ubuntu-latest
-    timeout-minutes: 300
+    # Raised from 300: with the swap above in place the job no longer gets killed mid-build, and
+    # this submission's cone (6147 targets) reached the 300-minute wall while still working -- the
+    # 6-hour ceiling GitHub allows is the honest limit. 295 finishes the same job in ~135 minutes;
+    # this port's kernel certificates are much heavier.
+    timeout-minutes: 360
     steps:
       - name: Make room on the runner
         # `lake build Submission` compiles the whole submission cone and needs more memory than a
@@ -111,7 +115,8 @@ jobs:
   docs:
     name: Build API documentation
     runs-on: ubuntu-latest
-    timeout-minutes: 300
+    # Raised with the build job for the same reason: doc-gen4 elaborates the same cone.
+    timeout-minutes: 360
     steps:
       - name: Make room on the runner
         # Same reasoning as the build job: doc-gen4 elaborates the whole tree and holds its own
