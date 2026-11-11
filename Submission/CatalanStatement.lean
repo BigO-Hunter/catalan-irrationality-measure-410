@@ -1,6 +1,10 @@
-import Mathlib.Analysis.SpecialFunctions.Pow.Real
-import Mathlib.Topology.Algebra.InfiniteSum.Real
-import Mathlib.Order.Filter.AtTopBot.Basic
+module
+
+public import Mathlib.Analysis.SpecialFunctions.Pow.Real
+public import Mathlib.Topology.Algebra.InfiniteSum.Real
+public import Mathlib.Order.Filter.AtTopBot.Basic
+
+@[expose] public section
 
 /-!
 # Catalan's constant: an upper bound on its irrationality exponent
