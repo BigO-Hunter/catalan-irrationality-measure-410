@@ -80,16 +80,19 @@ jobs:
     timeout-minutes: 300
     steps:
       - name: Make room on the runner
-        # `lake build Submission` compiles the whole submission cone (6k+ modules under
-        # Submission/CatalanCore and Submission/CatalanFrames) and writes several GB of oleans
-        # on top of the ~2.5 GB mathlib cache. The comparator job provisions headroom for its
-        # kernel replay; this job never did, because until the source gate was fixed it compiled
-        # nothing at all. Free the preinstalled SDKs, and print free space on both sides so a
-        # future failure is diagnosable instead of a bare runner shutdown.
+        # `lake build Submission` compiles the whole submission cone and needs more memory than a
+        # standard runner has free. Every attempt so far died at the same place -- ~4990/5372
+        # targets, ~24 s into the next module -- with exit code 143 and "the runner has received a
+        # shutdown signal", i.e. the worker was killed, not a Lean error. Disk is not the
+        # constraint: 106 GB free after the SDK removal below. Peak RSS of the remaining
+        # `decide +kernel` certificates is. Provision the same swap the comparator job already
+        # carries for its kernel replay.
         run: |
           df -h / | tail -1
           sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL
-          df -h / | tail -1
+          sudo fallocate -l 24G /swapfile2 && sudo chmod 600 /swapfile2
+          sudo mkswap /swapfile2 >/dev/null && sudo swapon /swapfile2
+          free -m; df -h / | tail -1
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           persist-credentials: false
@@ -111,12 +114,14 @@ jobs:
     timeout-minutes: 300
     steps:
       - name: Make room on the runner
-        # Same reasoning as the build job: doc-gen4 compiles the whole tree and holds its own
-        # dependency set, so this job also needs the SDK space freed before it starts.
+        # Same reasoning as the build job: doc-gen4 elaborates the whole tree and holds its own
+        # dependency set, so this job needs the SDK space and the swap too.
         run: |
           df -h / | tail -1
           sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL
-          df -h / | tail -1
+          sudo fallocate -l 24G /swapfile2 && sudo chmod 600 /swapfile2
+          sudo mkswap /swapfile2 >/dev/null && sudo swapon /swapfile2
+          free -m; df -h / | tail -1
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           persist-credentials: false
