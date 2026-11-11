@@ -79,6 +79,17 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 300
     steps:
+      - name: Make room on the runner
+        # `lake build Submission` compiles the whole submission cone (6k+ modules under
+        # Submission/CatalanCore and Submission/CatalanFrames) and writes several GB of oleans
+        # on top of the ~2.5 GB mathlib cache. The comparator job provisions headroom for its
+        # kernel replay; this job never did, because until the source gate was fixed it compiled
+        # nothing at all. Free the preinstalled SDKs, and print free space on both sides so a
+        # future failure is diagnosable instead of a bare runner shutdown.
+        run: |
+          df -h / | tail -1
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL
+          df -h / | tail -1
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           persist-credentials: false
@@ -99,6 +110,13 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 300
     steps:
+      - name: Make room on the runner
+        # Same reasoning as the build job: doc-gen4 compiles the whole tree and holds its own
+        # dependency set, so this job also needs the SDK space freed before it starts.
+        run: |
+          df -h / | tail -1
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL
+          df -h / | tail -1
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           persist-credentials: false
