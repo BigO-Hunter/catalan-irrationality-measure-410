@@ -1,5 +1,9 @@
-import Submission.CatalanStatement
-import Submission.CatalanMeasure.GenD.Signed.Data.Assembly.CellsAll
+module
+
+public import Submission.CatalanStatement
+public import Submission.CatalanMeasure.GenD.Signed.Data.Assembly.CellsAll
+
+@[expose] public section
 
 -- Bridge from Litsey's fixed-exponent mu(G) <= 410 theorem to the BigOSpeedrun
 -- Catalan adapter. The transfer (Endpoint at a fixed exponent implies
